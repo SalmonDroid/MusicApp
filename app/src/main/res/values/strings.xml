@@ -1,0 +1,42 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Muuzik</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_artists">Artists</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_songs">Songs</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_featured">Featured</string>
+
+    <string name="category_genre">Genre</string>
+
+    <string name="category_playing">Now Playing</string>
+
+    <string name="category_playlists">Playlists</string>
+
+    <string name="content_one">Arrow pointing to the right</string>
+
+    <string name="footer_artist_name">Artist Name</string>
+
+    <string name="footer_song_name">Song Name</string>
+
+    <string name="activity_artists">Artists</string>
+
+    <string name="activity_songs">Songs</string>
+
+    <string name="activity_albums">Albums</string>
+
+    <string name="activity_featured">Featured</string>
+
+    <string name="activity_genre">Genre</string>
+
+    <string name="activity_playlists">Playlists</string>
+
+    <string name="activity_playing">Now Playing</string>
+</resources>

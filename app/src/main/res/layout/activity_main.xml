@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/artists_s"
+            style="@style/CategoryStyle"
+            android:background="@drawable/gradients"
+            android:text="@string/category_artists"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arrowright"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/content_one"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient2">
+
+        <TextView
+            android:id="@+id/albums"
+            style="@style/CategoryStyle"
+            android:text="@string/category_albums" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arrowright"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/content_one"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradients">
+
+        <TextView
+            android:id="@+id/songs"
+            style="@style/CategoryStyle"
+            android:text="@string/category_songs" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arrowright"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/content_one"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient2">
+
+        <TextView
+            android:id="@+id/featured"
+            style="@style/CategoryStyle"
+            android:text="@string/category_featured" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arrowright"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/content_one"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradients">
+
+        <TextView
+            android:id="@+id/playlists"
+            style="@style/CategoryStyle"
+            android:text="@string/category_playlists" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arrowright"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/content_one"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient2">
+
+        <TextView
+            android:id="@+id/genre"
+            style="@style/CategoryStyle"
+            android:text="@string/category_genre" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arrowright"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/content_one"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/playing"
+            style="@style/FooterStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@color/category_playing" />
+
+        <TextView
+            android:id="@+id/now_playing_song"
+            style="@style/FooterTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/footer_song_name"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/play_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="100dp"
+            android:layout_marginRight="100dp"
+            android:contentDescription="@string/content_one"
+            android:src="@drawable/playtestone" />
+
+        <ImageView
+            android:id="@+id/pause_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:contentDescription="@string/content_one"
+            android:src="@drawable/pausebuttontest" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
